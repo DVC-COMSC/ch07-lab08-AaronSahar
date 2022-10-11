@@ -18,5 +18,5 @@ for i in range(len(numbers)):
         break
     if i == 4:
         numbers.insert(i+1, insert_number)
-
-print(numbers)
+for i in range(len(numbers)):
+    print(numbers[i], end=' ')
