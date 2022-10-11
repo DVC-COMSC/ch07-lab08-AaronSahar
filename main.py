@@ -17,6 +17,6 @@ for i in range(len(numbers)):
         numbers.insert(i, insert_number)
         break
     if i == 4:
-        numbers.insert(i, insert_number)
+        numbers.insert(i+1, insert_number)
 
 print(numbers)
