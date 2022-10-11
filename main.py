@@ -1,4 +1,4 @@
-inputvalues = input('Enter 5 elements values in ascending order: ')
+inputvalues = input()
 numbers = inputvalues.split()
 for i in range(len(numbers)):
 	numbers[i] = int(numbers[i]) 
@@ -10,7 +10,7 @@ while sorted(numbers) != numbers or len(numbers) > 5:
     for i in range(len(numbers)):
 	    numbers[i] = int(numbers[i]) 
 
-insert_number = int(input('Enter the number to insert: '))
+insert_number = int(input())
 
 for i in range(len(numbers)):
     if insert_number < numbers[i]:
